@@ -17,7 +17,7 @@
     
     #choco-wrapper img {
         max-width: 100%;
-        width: auto;
+        width: 100%;
         object-fit: cover;
     }
     
@@ -29,11 +29,7 @@
     
     #choco-wrapper .header-logo {
         width: 120px;
-    }
-    
-    #choco-wrapper .sec-top {
-        /* padding-left: 30px;
-    padding-right: 30px; */
+        margin-left: 30px;
     }
     
     #choco-wrapper .main-visual {
@@ -44,7 +40,6 @@
     }
     
     #choco-wrapper .main-v-ttl {
-        /* font-family: 'Noto Sans JP'; */
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -100,11 +95,11 @@
         width: 100%;
     }
     
-    #choco-wrapper .product-view {
+    #choco-wrapper .sec-product-view {
         padding-top: 17px;
     }
     
-    #choco-wrapper .product-view .product-view-desc p {
+    #choco-wrapper .sec-product-view .product-view-desc p {
         font-weight: 500;
         font-size: 12px;
         line-height: 170%;
@@ -121,7 +116,7 @@
         display: flex;
     }
     
-    #choco-wrapper .product-view .product-view-desc {
+    #choco-wrapper .sec-product-view .product-view-desc {
         width: 55%;
     }
     
@@ -173,9 +168,9 @@
         margin-top: 15px;
     }
     
-    #choco-wrapper .yellow-view {
+    #choco-wrapper .sec-yellow-view {
         margin-top: 30px;
-        padding: 15px 0px;
+        padding: 30px 0px;
         background-color: #FFF25F;
     }
     
@@ -217,13 +212,12 @@
         font-size: 16px;
         line-height: 180%;
         /* identical to box height, or 29px */
-        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
         color: #000000;
     }
     
     #choco-wrapper .drink-three-steps-ttl {
         text-align: center;
-        margin: 15px 0px 0px;
         padding: 3px auto;
         background-color: #122939;
         font-weight: 500;
@@ -236,6 +230,226 @@
     
     #choco-wrapper .color-light-yellow {
         color: #FAFF00;
+    }
+    
+    #choco-wrapper .drink-three-steps {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #choco-wrapper .drink-alone-ttl {
+        text-align: center;
+        margin-top: 30px;
+        padding: 3px auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        background-color: #122939;
+    }
+    
+    #choco-wrapper .drink-alone {
+        margin-top: 15px;
+    }
+    
+    #choco-wrapper .drink-faq {
+        margin-top: 45px;
+    }
+    
+    #choco-wrapper .drink-faq-ttl {
+        text-align: center;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 150%;
+        /* identical to box height, or 26px */
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    
+    #choco-wrapper .drink-faq-contents {
+        font-size: 14px;
+    }
+    
+    #choco-wrapper .drink-faq-line {
+        margin: 10px 0px;
+        border: 1px solid #122939
+    }
+    
+    #choco-wrapper .faq-accordion {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    
+    #choco-wrapper .faq-accordion-panel {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    
+    #choco-wrapper .faq-accordion-panel {
+        font-weight: 400;
+        line-height: 150%;
+        /* or 21px */
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    
+    #choco-wrapper .drink-faq-content {
+        font-weight: 700;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+        letter-spacing: 0.1em;
+    }
+    
+    #choco-wrapper .faq-q-mark {
+        color: #F19614;
+    }
+    
+    #choco-wrapper .faq-question {
+        margin-left: 30px;
+        font-weight: 400;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    
+    #choco-wrapper .faq-content {
+        margin-bottom: 10px;
+    }
+    
+    #choco-wrapper .faq-accordion-question {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+    .arrow {
+        border: solid #F19614;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+    
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    
+    #choco-wrapper .sec-buy {
+        margin-top: 30px;
+        background-color: #FFF25F;
+        padding: 30px 0px 45px;
+    }
+    
+    #choco-wrapper .buy-1-pack {
+        position: relative;
+    }
+    
+    #choco-wrapper .buy-1-button {
+        cursor: pointer;
+        position: absolute;
+        width: 45%;
+        bottom: 5px;
+        right: 10%;
+    }
+    
+    #choco-wrapper .buy-1-button:hover,
+    .buy-2-button:hover,
+    .buy-3-button:hover {
+        opacity: 0.6;
+    }
+    
+    #choco-wrapper .buy-2-pack {
+        position: relative;
+    }
+    
+    #choco-wrapper .buy-2-button {
+        cursor: pointer;
+        position: absolute;
+        width: 45%;
+        bottom: 5px;
+        right: 10%;
+    }
+    
+    #choco-wrapper .buy-3-pack {
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    #choco-wrapper .buy-3-button {
+        cursor: pointer;
+        position: absolute;
+        width: 45%;
+        bottom: 5px;
+        right: 10%;
+    }
+    
+    #choco-wrapper .buy-4-pack {
+        margin-top: 30px;
+    }
+    
+    #choco-wrapper .transport-pack {
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    #choco-wrapper .buy-5-button {
+        cursor: pointer;
+        position: absolute;
+        width: 35%;
+        bottom: 15%;
+        left: 5%;
+    }
+    
+    #choco-wrapper .buy-6-button {
+        cursor: pointer;
+        position: absolute;
+        width: 35%;
+        bottom: 15%;
+        right: 5%;
+    }
+    
+    #choco-wrapper .profit {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #choco-wrapper .profit .mt-15 {
+        margin-top: 15px;
+    }
+    
+    #choco-wrapper .profit .mt-20 {
+        margin-top: 20px;
+    }
+    
+    footer {
+        background-color: #122939;
+        padding: 15px 0px;
+    }
+    
+    footer p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
     }
     
     @media (min-width: 550px) {
@@ -262,7 +476,7 @@
         #choco-wrapper .main-bottom {
             height: 252px;
         }
-        #choco-wrapper .product-view .product-view-desc p {
+        #choco-wrapper .sec-product-view .product-view-desc p {
             font-size: 20px;
         }
         #choco-wrapper .product-view-img {
@@ -281,7 +495,7 @@
         #choco-wrapper .product-intro-img {
             margin-top: 30px;
         }
-        #choco-wrapper .yellow-view {
+        #choco-wrapper .sec-yellow-view {
             margin-top: 45px;
             padding: 35px 0px;
         }
@@ -297,16 +511,42 @@
         }
         #choco-wrapper .drink-ttl {
             margin-top: 50px;
-            font-size: 29px;
+            font-size: 24px;
         }
         #choco-wrapper .drink-three-steps-ttl {
-            margin: 30px 30px 0;
+            margin: 30px 0px 0;
             font-size: 24px;
+        }
+        #choco-wrapper .drink-alone-ttl {
+            margin-top: 45px;
+            font-size: 24px;
+        }
+        #choco-wrapper .drink-alone {
+            margin-top: 30px;
+        }
+        #choco-wrapper .drink-faq-ttl {
+            font-size: 26px;
+        }
+        #choco-wrapper .drink-faq-contents {
+            font-size: 21px;
+        }
+        #choco-wrapper .buy-3-pack,
+        #choco-wrapper .buy-1-pack,
+        #choco-wrapper .buy-4-pack,
+        #choco-wrapper .transport-pack {
+            margin-top: 45px;
+        }
+        footer p {
+            font-size: 15px;
         }
     }
     
     @media (min-width: 750px) {
-        #choco-wrapper .product-view .product-view-desc p {
+        #choco-wrapper .sec-product-view .product-view-desc p {
             font-size: 26px 0px;
+        }
+        #choco-wrapper .drink-ttl {
+            margin-top: 50px;
+            font-size: 29px;
         }
     }
