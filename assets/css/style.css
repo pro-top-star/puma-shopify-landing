@@ -1,0 +1,312 @@
+    @font-face {
+        font-family: 'Noto Sans JP';
+        src: url(../fonts/NotoSansJP-Regular.otf);
+    }
+    
+    body {
+        font-family: 'Noto Sans JP';
+    }
+    
+    .choco-container {
+        max-width: 750px;
+        width: 100%;
+        padding: 0 30px;
+        margin: auto;
+        position: relative;
+    }
+    
+    #choco-wrapper img {
+        max-width: 100%;
+        width: auto;
+        object-fit: cover;
+    }
+    
+    #choco-wrapper .header {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #choco-wrapper .header-logo {
+        width: 120px;
+    }
+    
+    #choco-wrapper .sec-top {
+        /* padding-left: 30px;
+    padding-right: 30px; */
+    }
+    
+    #choco-wrapper .main-visual {
+        background: url('../img/top-background.png') center center no-repeat;
+        height: 40vh;
+        background-size: cover;
+        padding-top: 20px;
+    }
+    
+    #choco-wrapper .main-v-ttl {
+        /* font-family: 'Noto Sans JP'; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #122939;
+        text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    }
+    
+    #choco-wrapper .main-v-desc {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    #choco-wrapper .main-v-desc .main-v-desc-sen {
+        margin-top: 10px;
+        display: inline;
+        padding: 6px 15px 7px 12px;
+        background-color: #122939;
+        /* font-family: 'Noto Sans JP'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #FFEB00;
+        text-align: center;
+    }
+    
+    #choco-wrapper .product-img {
+        position: absolute;
+        top: 52px;
+        right: 0px;
+        /* font-family: 'Noto Sans JP'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+    
+    #choco-wrapper .main-bottom {
+        background-color: #122939;
+        height: 126px;
+    }
+    
+    #choco-wrapper .top-circles {
+        margin-top: -45px;
+        width: 100%;
+    }
+    
+    #choco-wrapper .product-view {
+        padding-top: 17px;
+    }
+    
+    #choco-wrapper .product-view .product-view-desc p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170%;
+        /* or 20px */
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    
+    #choco-wrapper .color-yellow {
+        color: #F19614;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    #choco-wrapper .product-view .product-view-desc {
+        width: 55%;
+    }
+    
+    #choco-wrapper .product-view-img-pack {
+        width: 45%;
+    }
+    
+    #choco-wrapper .product-view-img-pack p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 130%;
+        /* identical to box height, or 13px */
+        text-align: center;
+        color: #122939;
+    }
+    
+    #choco-wrapper .product-view-sign {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    #choco-wrapper .product-view-sign span {
+        background: #FFE500;
+        border-radius: 25px;
+        padding: 6px 55px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 150%;
+        display: inline-block;
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    
+    #choco-wrapper .product-view-intro {
+        border: 1px solid #122939;
+        margin-top: 15px;
+    }
+    
+    #choco-wrapper .product-view-intro-ttl {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #choco-wrapper .product-intro-img {
+        margin-top: 15px;
+    }
+    
+    #choco-wrapper .yellow-view {
+        margin-top: 30px;
+        padding: 15px 0px;
+        background-color: #FFF25F;
+    }
+    
+    #choco-wrapper .two-circles {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #choco-wrapper .two-circles-img {
+        width: 220px;
+    }
+    
+    #choco-wrapper .yellow-view-desc {
+        margin: 10px 0px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        /* or 26px */
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #122939;
+    }
+    
+    #choco-wrapper .yellow-top-img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #choco-wrapper .yellow-point {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #choco-wrapper .drink-ttl {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 180%;
+        /* identical to box height, or 29px */
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    
+    #choco-wrapper .drink-three-steps-ttl {
+        text-align: center;
+        margin: 15px 0px 0px;
+        padding: 3px auto;
+        background-color: #122939;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+    
+    #choco-wrapper .color-light-yellow {
+        color: #FAFF00;
+    }
+    
+    @media (min-width: 550px) {
+        #choco-wrapper .header {
+            height: 80px;
+        }
+        #choco-wrapper .header-logo {
+            width: 240px;
+        }
+        #choco-wrapper .main-v-ttl {
+            font-size: 28px;
+        }
+        #choco-wrapper .main-v-desc .main-v-desc-sen {
+            font-size: 17px;
+        }
+        #choco-wrapper .main-visual {
+            height: 50vh;
+        }
+        #choco-wrapper .product-img {
+            font-size: 13px;
+            top: 100px;
+            left: calc(50% + 50px);
+        }
+        #choco-wrapper .main-bottom {
+            height: 252px;
+        }
+        #choco-wrapper .product-view .product-view-desc p {
+            font-size: 20px;
+        }
+        #choco-wrapper .product-view-img {
+            width: 100%;
+        }
+        #choco-wrapper .product-view-img-pack p {
+            font-size: 13px;
+        }
+        #choco-wrapper .product-view-sign span {
+            font-size: 22px;
+            padding: 8px 100px;
+        }
+        #choco-wrapper .product-view-sign {
+            margin-top: 10px;
+        }
+        #choco-wrapper .product-intro-img {
+            margin-top: 30px;
+        }
+        #choco-wrapper .yellow-view {
+            margin-top: 45px;
+            padding: 35px 0px;
+        }
+        #choco-wrapper .two-circles-img {
+            width: 420px;
+        }
+        #choco-wrapper .yellow-view-desc {
+            margin-top: 20px;
+            font-size: 26px;
+        }
+        #choco-wrapper .yellow-point {
+            margin-top: 45px;
+        }
+        #choco-wrapper .drink-ttl {
+            margin-top: 50px;
+            font-size: 29px;
+        }
+        #choco-wrapper .drink-three-steps-ttl {
+            margin: 30px 30px 0;
+            font-size: 24px;
+        }
+    }
+    
+    @media (min-width: 750px) {
+        #choco-wrapper .product-view .product-view-desc p {
+            font-size: 26px 0px;
+        }
+    }
